@@ -59,5 +59,11 @@
         </div>
     </div>
 </div>
+
+<!-- 날짜/시간/학번/성명 표시 -->
+<footer class="text-center text-muted py-3 mt-4">
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 HH:mm:ss') + '  │  학번: 2371452  │  성명: 유영민'}"></p>
+</footer>
+
 </body>
 </html>
