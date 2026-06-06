@@ -1,4 +1,4 @@
-package kr.ac.hansung.controller;
+package templates.products;
 
 import kr.ac.hansung.dto.ProductDto;
 import kr.ac.hansung.service.ProductService;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
+import jakarta.validation.Valid;
 
 import kr.ac.hansung.entity.Product;
 
